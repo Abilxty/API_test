@@ -70,3 +70,5 @@ D:\SWE\API_test\obj\Debug\netcoreapp3.1\API_test.csproj.CopyComplete
 D:\SWE\API_test\obj\Debug\netcoreapp3.1\API_test.dll
 D:\SWE\API_test\obj\Debug\netcoreapp3.1\API_test.pdb
 D:\SWE\API_test\obj\Debug\netcoreapp3.1\API_test.genruntimeconfig.cache
+D:\SWE\API_test\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\SWE\API_test\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
