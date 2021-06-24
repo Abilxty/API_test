@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fasani\\OneDrive - Deloitte (O365D)\\Documents\\Deloitte\\Projekte\\API_test\\API_test.csproj": {}
+    "D:\\SWE\\API_test\\API_test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fasani\\OneDrive - Deloitte (O365D)\\Documents\\Deloitte\\Projekte\\API_test\\API_test.csproj": {
+    "D:\\SWE\\API_test\\API_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fasani\\OneDrive - Deloitte (O365D)\\Documents\\Deloitte\\Projekte\\API_test\\API_test.csproj",
+        "projectUniqueName": "D:\\SWE\\API_test\\API_test.csproj",
         "projectName": "API_test",
-        "projectPath": "C:\\Users\\fasani\\OneDrive - Deloitte (O365D)\\Documents\\Deloitte\\Projekte\\API_test\\API_test.csproj",
-        "packagesPath": "C:\\Users\\fasani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fasani\\OneDrive - Deloitte (O365D)\\Documents\\Deloitte\\Projekte\\API_test\\obj\\",
+        "projectPath": "D:\\SWE\\API_test\\API_test.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "D:\\SWE\\API_test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fasani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +38,23 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
