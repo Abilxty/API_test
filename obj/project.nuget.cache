@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zvjfXPgpaYRNNj0309jTbAJ5/nChqxjt7xLnOYFToH+e0MzIQYfGpROwuSZ3suOVedeG7xDEAIG5DIAVa73hzg==",
+  "dgSpecHash": "1dlwO9t9i1Nd1cU0zbaQvzeqGlu6ms4s+afm4C8V2RrALM7YI/xlN1xaV13GpdptluhRGMN3gqYRdojBbFh1Sg==",
   "success": true,
   "projectFilePath": "D:\\SWE\\API_test\\API_test.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\furka\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
