@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 
 namespace API_test
 {
@@ -31,7 +32,8 @@ namespace API_test
             services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer
             (Configuration.GetConnectionString("CommanderConnection")));
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(
+                 s => {s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver(); });
 
             services.AddScoped<ICommanderRepo ,SqlCommanderRepo>();
             
