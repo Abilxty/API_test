@@ -29,5 +29,10 @@ namespace Commander.Data{
         {
             throw new System.NotImplementedException();
         }
+
+        void ICommanderRepo.UpdateCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

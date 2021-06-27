@@ -35,6 +35,11 @@ namespace Commander.Data{
         {
             return (_context.SaveChanges() >= 0);
         }
+
+        void ICommanderRepo.UpdateCommand(Command cmd)
+        {
+            //Nothing
+        }
     }
 
 }
